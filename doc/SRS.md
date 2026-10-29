@@ -1,4 +1,4 @@
-# SRS - Sistema Integrado de Ventas e Inventario para la tienda de ropa Oscar Montano (v1.0)
+# SRS - Sistema Integrado de Ventas e Inventario para la tienda de ropa Oscar Montano 
 | ID | Requisito |
 |---|---|
 | REQ-001 | Inicio de sesión del usuario |
