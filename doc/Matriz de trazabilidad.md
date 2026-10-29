@@ -8,7 +8,7 @@
 | REQ-005 | Registrar ventas  |
 | REQ-006 | Calcular subtotal, IGV y Total|
 | REQ-007 | Descontar stock | 
-| REQ-008 | Generar comprobante|
+| REQ-008 | Generar comprobante|| CLS-Comprobante |
 | REQ-009 | Generar reportes de ventas |
 | REQ-010 | Generar reportes de inventario | 
 | REQ-011 | Consultar historial| 
