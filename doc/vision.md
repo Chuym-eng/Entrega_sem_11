@@ -1,7 +1,7 @@
 
 # Documento de Visión Sistema Integrado de Ventas e Inventario para la tienda de ropa “Oscar Montano”
 ## 1. Propósito
-Permitir que los usuarios puedan registrarse, iniciar sesión, buscar contenido y agilizar el servicio al cliente.
+Permitir que los usuarios puedan registrarse, iniciar sesión y buscar contenido, lo cual permitirá agilizar el servicio al cliente.
 ## 2. Problema
 Falta de integración entre el sistema de emisión de boletas y el control de inventario del sistema.
 ## 3. Alcance
@@ -13,10 +13,10 @@ Falta de integración entre el sistema de emisión de boletas y el control de in
 | Cliente | Consultar los productos con el menor tiempo de atención posible |
 | Cajero | Registrar las ventas de la forma más rápida posible |
 | Encargado del almacén | Gestionar el inventario |
-| Administrador | Gestionar los precios |
+| Administrador | Obtener reportes de ventas y gestionar detalles de productos |
 ## 5. Objetivos medibles
-- Reducir posible perdidas relacionadas con errores de inventario.
-- Sustituir de manera progresiva el uso de cuadernos para las operaciones.
+- Reducir posible perdidas relacionadas con errores de inventario ( <5% perdidas ).
+- Reducir el tiempo de espera del cliente ( min: 2 minutos; max: 5 minutos ).
 ## 6. Requisitos de alto nivel (6 y 7 todavía faltan)
 - REQ-001: Inicio de sesión del usuario. 
 - REQ-002: Registrar nuevos productos en el inventario
