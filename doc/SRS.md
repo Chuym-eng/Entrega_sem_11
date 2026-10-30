@@ -6,7 +6,7 @@
 | REQ-003 | Registrar clientes con nombre, DNI y teléfono | 
 | REQ-004 | Permitir buscar prendas por nombre, código o categoría y mostrar su stock por talla y color, y su precio | 
 | REQ-005 | Registrar ventas de una o más prendas, indicando la cantidad de cada una y, opcionalmente, el cliente |
-| REQ-006 | Calcular automáticamente el subtotal, el IGV (18 %) y el total de la venta |
+| REQ-006 | Calcular automáticamente el subtotal y el total de la venta |
 | REQ-007 | Descontar del stock, por talla y color, la cantidad vendida de cada prenda al confirmar la venta | 
 | REQ-008 | Generar el comprobante interno de venta con número, fecha, detalle, subtotal, IGV y total |
 | REQ-009 | Generar reportes de ventas por rango de fechas |
