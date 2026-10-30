@@ -6,7 +6,7 @@
 | REQ-003 | Registrar clientes  | CU-006 | CLS-Cita | PRU-003 | Sí |
 | REQ-004 | Consultar prendas | CU-003 |
 | REQ-005 | Registrar ventas  | CU-004 |  |  |
-| REQ-006 | Calcular subtotal, IGV y Total| CU-004 |
+| REQ-006 | Calcular subtotal y Total| CU-004 |
 | REQ-007 | Descontar stock | CU-004 |
 | REQ-008 | Generar comprobante interno de venta | CU-004 | CLS-Comprobante |
 | REQ-009 | Generar reportes de ventas por rango de fechas | CU-005 |
