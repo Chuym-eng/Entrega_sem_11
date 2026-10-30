@@ -8,6 +8,7 @@
 - Flujo de excepcion:
   1. El sistema permite un máximo de 3 intentos de ingreso.
   2. El sistema bloquea el acceso al usuario una vez sobrepasada los 3 intentos.
+
 ## CU-002: Registrar productos 
 - Actor: Administrador, Encargado del almacén.
 - Flujo principal:
@@ -21,6 +22,7 @@
   1. Si faltan datos obligatorios, el sistema solicita completarlos.
   2. Si el código del producto ya existe, el sistema informa que el producto está registrado.
   3. Si el precio o la cantidad son negativos, el sistema rechaza el registro.
+
 ## CU-003: Consultar productos 
 - Actor: Administrador, Cajero, Encargado del almacén.
 - Flujo principal:
@@ -33,6 +35,7 @@
   1. Si el producto no existe, el sistema muestra un mensaje indicando que no se encontraron resultados.
   2. Si el campo de búsqueda está vacío, el sistema solicita ingresar un criterio de búsqueda.
   3. Si ocurre un error de conexión con la base de datos, el sistema informa que no se pudo completar la consulta.
+
 ## CU-004: Registrar venta 
 - Actor: Cajero.
 - Flujo principal:
@@ -53,6 +56,7 @@
   3. Si el cliente indicado no existe, el sistema ofrece registrarlo o continuar la venta sin cliente.
   4. Si los datos del pago son incorrectos, el sistema solicita corregirlos.
   5. Si ocurre un error al registrar la venta, el sistema informa del problema y evita descontar el stock sin que la venta quede registrada correctamente.
+
 ## CU-005: Generar reporte de ventas
 - Actor: Administrador.
 - Flujo principal:
@@ -67,6 +71,7 @@
   1. Si las fechas ingresadas son inválidas, el sistema solicita corregirlas.
   2. Si no existen ventas en el periodo seleccionado, el sistema muestra un mensaje indicando que no hay información disponible.
   3. Si ocurre un error al generar o exportar el reporte, el sistema informa que la operación no pudo completarse.
+
 ## CU-006: Registrar clientes
 - Actor: Cajero, Administrador.
 - Flujo principal:
@@ -95,4 +100,18 @@
   7. El usuario puede exportar o imprimir el reporte.
 - Flujo de excepción:
   1. Si ninguna prenda coincide con los filtros, el sistema muestra un mensaje indicando que no hay información disponible.
+
+## CU-008: Consultar historial de ventas 
+- Actor: Cajero, Administrador.
+- Flujo principal:
+  1. El usuario ingresa al módulo de historial de ventas.
+  2. El sistema muestra el filtro de búsqueda por fecha.
+  3. El usuario ingresa una fecha o un rango de fechas.
+  4. El sistema busca las ventas registradas en ese periodo.
+  5. El sistema muestra la lista de ventas con número de comprobante, fecha, cajero, cliente (si lo hubo) y total.
+  6. El usuario selecciona una venta de la lista.
+  7. El sistema muestra el detalle de la venta: prendas, tallas, colores, cantidades, subtotal, IGV y total.
+- Flujo de excepción:
+  1. Si las fechas ingresadas son inválidas o el rango está invertido, el sistema solicita corregirlas.
+  2. Si no existen ventas en el periodo, el sistema muestra un mensaje indicando que no se encontraron resultados.
 
