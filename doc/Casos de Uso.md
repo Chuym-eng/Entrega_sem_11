@@ -110,7 +110,7 @@
   4. El sistema busca las ventas registradas en ese periodo.
   5. El sistema muestra la lista de ventas con número de comprobante, fecha, cajero, cliente (si lo hubo) y total.
   6. El usuario selecciona una venta de la lista.
-  7. El sistema muestra el detalle de la venta: prendas, tallas, colores, cantidades, subtotal, IGV y total.
+  7. El sistema muestra el detalle de la venta: prendas, tallas, colores, cantidades, subtotal y total.
 - Flujo de excepción:
   1. Si las fechas ingresadas son inválidas o el rango está invertido, el sistema solicita corregirlas.
   2. Si no existen ventas en el periodo, el sistema muestra un mensaje indicando que no se encontraron resultados.
