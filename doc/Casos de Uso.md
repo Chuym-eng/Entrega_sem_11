@@ -10,7 +10,7 @@
   2. El sistema bloquea el acceso al usuario una vez sobrepasada los 3 intentos.
 
 ## CU-002: Registrar productos 
-- Actor: Administrador, Encargado del almacén.
+- Actor: Administrador.
 - Flujo principal:
   1. El usuario ingresa al módulo de productos.
   2. El sistema muestra el formulario de registro.
@@ -73,7 +73,7 @@
   3. Si ocurre un error al generar o exportar el reporte, el sistema informa que la operación no pudo completarse.
 
 ## CU-006: Registrar clientes
-- Actor: Cajero, Administrador.
+- Actor: Cajero.
 - Flujo principal:
   1. El usuario ingresa al módulo de gestión de clientes.
   2. El sistema muestra la opción para registrar un nuevo cliente.
@@ -89,7 +89,7 @@
   4. Si ocurre un error al guardar la información, el sistema informa que no se pudo completar el registro.
  
   ## CU-007: Generar reporte de inventario
-- Actor: Administrador, Encargado del almacén.
+- Actor: Administrador.
 - Flujo principal:
   1. El usuario ingresa al módulo de reportes.
   2. El usuario selecciona la opción de reporte de inventario.
@@ -102,7 +102,7 @@
   1. Si ninguna prenda coincide con los filtros, el sistema muestra un mensaje indicando que no hay información disponible.
 
 ## CU-008: Consultar historial de ventas 
-- Actor: Cajero, Administrador.
+- Actor: Administrador.
 - Flujo principal:
   1. El usuario ingresa al módulo de historial de ventas.
   2. El sistema muestra el filtro de búsqueda por fecha.
