@@ -44,7 +44,7 @@
   3. El cajero busca y selecciona los productos que desea vender.
   4. El sistema verifica que exista stock suficiente para cada producto.
   5. Opcionalmente, el cajero asocia un cliente a la venta, seleccionando uno registrado o registrándolo
-  6. El sistema calcula el subtotal y el importe total de la venta.
+  6. El sistema calcula el importe total de la venta.
   7. El cajero confirma la venta e ingresa los datos de pago.
   8. El sistema registra la venta y actualiza el stock de los productos por talla y color.
   9. El sistema genera el comprobante de venta.
@@ -114,4 +114,8 @@
 - Flujo de excepción:
   1. Si las fechas ingresadas son inválidas o el rango está invertido, el sistema solicita corregirlas.
   2. Si no existen ventas en el periodo, el sistema muestra un mensaje indicando que no se encontraron resultados.
+
+## CU-009: Reabastecer Producto
+
+
 
