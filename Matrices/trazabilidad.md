@@ -17,4 +17,4 @@
 
 **Cobertura**
 
-- Trazabilidad requisito → caso de uso → clase: 13 de 13 (100 %)
+- Trazabilidad requisito → caso de uso → clase: 13 de 13(100 %)
