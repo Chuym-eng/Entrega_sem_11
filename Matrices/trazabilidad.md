@@ -14,7 +14,6 @@
 | REQ-011 | Consultar historial de ventas por fecha | CU-008 | CLS-Venta, CLS-DetalleVenta, CLS-Comprobante, CLS-Cliente | PRU-011 | Pendiente |
 | REQ-012 | Alerta cuando el stock de un producto, por talla y color, sea menor a 10 unidades | CU-004, CU-003, CU-009 | CLS-Producto | PRU-012 | Pendiente |
 | REQ-013 | Registrar pago con método y monto | CU-004 | CLS-Pago, CLS-Venta| PRU-013 | Pendiente |
-| REQ-014 | Registrar reabastecimiento y actualizar stock | CU-009 | CLS-Reabastecimiento, CLS-Producto, CLS-Encargado del almacén | PRU-014 | Pendiente |
 
 **Cobertura**
 
