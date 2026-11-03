@@ -14,4 +14,4 @@
 | REQ-011 | Permitir consultar el historial por fecha | 
 | REQ-012 | Mostrar una alerta cuando el stock de un producto, por talla y color, sea menor a 10 unidades. |
 | REQ-013 | Registrar el pago de la venta indicando el método (Yape, Plin o tarjeta) y el monto|
-| REQ-014 | El sistema debera permitir reabastecimiento de productos y actualizar su stock por talla y color |
+
