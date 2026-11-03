@@ -16,8 +16,7 @@
 | REQ-012 | Alerta cuando el stock de un producto, por talla y color, sea menor a 10 unidades | CU-004, CU-003, CU-009 | CLS-005 | PRU-012 | Pendiente |
 | REQ-013 | Registrar pago con método y monto | CU-004 | CLS-008, CLS-006 | PRU-013 | Pendiente |
 | REQ-014 | Registrar reabastecimiento y actualizar stock | CU-009 | CLS-011, CLS-005, CLS-003 | PRU-014 | Pendiente |
-| REQ-015 | Buscar clientes por DNI al vender, o registrarlos | CU-004, CU-006 | CLS-004, CLS-006 | PRU-015 | Pendiente |
 
 **Cobertura**
 
-- Trazabilidad requisito → caso de uso → clase: 15 de 15 (100 %)
+- Trazabilidad requisito → caso de uso → clase: 14 de 14 (100 %)
