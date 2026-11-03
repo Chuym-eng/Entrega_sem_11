@@ -43,7 +43,7 @@
   2. El sistema muestra la interfaz para registrar una nueva venta.
   3. El cajero busca y selecciona los productos que desea vender.
   4. El sistema verifica que exista stock suficiente para cada producto.
-  5. Opcionalmente, el cajero asocia un cliente a la venta, seleccionando uno registrado o registrándolo
+  5. El cajero asocia un cliente a la venta, seleccionando uno registrado o registrándolo
   6. El sistema calcula el importe total de la venta.
   7. El cajero confirma la venta e ingresa los datos de pago.
   8. El sistema registra la venta y actualiza el stock de los productos por talla y color.
@@ -53,7 +53,7 @@
 - Flujo de excepción:
   1. Si un producto no tiene stock suficiente, el sistema informa al cajero y no permite vender una cantidad superior a la disponible.
   2. Si la cantidad ingresada es cero o negativa, el sistema solicita corregirla.
-  3. Si el cliente indicado no existe, el sistema ofrece registrarlo o continuar la venta sin cliente.
+  3. Si el cliente indicado no existe, el sistema ofrece registrarlo.
   4. Si los datos del pago son incorrectos, el sistema solicita corregirlos.
   5. Si ocurre un error al registrar la venta, el sistema informa del problema y evita descontar el stock sin que la venta quede registrada correctamente.
 
@@ -108,7 +108,7 @@
   2. El sistema muestra el filtro de búsqueda por fecha.
   3. El usuario ingresa una fecha o un rango de fechas.
   4. El sistema busca las ventas registradas en ese periodo.
-  5. El sistema muestra la lista de ventas con número de comprobante, fecha, cajero, cliente (si lo hubo) y total.
+  5. El sistema muestra la lista de ventas con número de comprobante, fecha, cajero, cliente y total.
   6. El usuario selecciona una venta de la lista.
   7. El sistema muestra el detalle de la venta: prendas, tallas, colores, cantidades, subtotal y total.
 - Flujo de excepción:
