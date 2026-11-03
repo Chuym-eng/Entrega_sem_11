@@ -116,6 +116,23 @@
   2. Si no existen ventas en el periodo, el sistema muestra un mensaje indicando que no se encontraron resultados.
 
 ## CU-009: Reabastecer Producto
-
+- Actor: Encargado del almacén.
+Incluye: CU-003 (Consultar productos).
+- Flujo principal:
+ 1. El encargado ingresa al módulo de reabastecimiento.
+ 2. El sistema muestra la pantalla de consulta de productos y pregunta: “¿Qué producto desea reabastecer?” (CU-003).
+ 3. El encargado busca el producto por nombre, código o categoría.
+ 4. El sistema muestra el precio y el stock disponible por talla y color, resaltando los productos con stock menor a 10 unidades.
+ 5. El encargado selecciona la talla y el color del producto que desea reabastecer.
+ 6. El encargado ingresa la cantidad a reponer.
+ 7. El sistema valida la cantidad ingresada.
+ 8. El encargado confirma el reabastecimiento.
+ 9. El sistema registra el reabastecimiento con su fecha y el encargado que lo realizó.
+ 10. El sistema actualiza el stock del producto sumando la cantidad repuesta.
+ 11. El sistema muestra la confirmación de la operación con el nuevo stock.
+- Flujo de excepción:
+ 1. Si el producto no existe, el sistema muestra un mensaje indicando que no se encontraron resultados, y el encargado debe       solicitar su registro al administrador.
+ 2. Si el campo de búsqueda está vacío, el sistema solicita ingresar un criterio de búsqueda (CU-003).
+ 3. Si la cantidad ingresada es cero, negativa o no numérica, el sistema solicita corregirla..
 
 
