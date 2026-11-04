@@ -1,6 +1,6 @@
 # Matriz de Impacto del Cambio
 | Dimensión | Artefactos | Descripción del Impacto | Estimación Métrica | 
 |---|---|---|---|
-| Alcance | - | - |  - | 
+| Alcance | - | -. |  - | 
 | Tiempo | - | - |  - | 
 | Calidad | - | - | -  | 
